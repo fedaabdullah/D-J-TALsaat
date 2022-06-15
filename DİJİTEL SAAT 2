@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CLOCK</title>
+          <link rel="stylesheet" href="C:\GOG Games\Desktop\feda abdullah\RANK\DİJİTALsaat.html\style.css">
+          <body>
+
+<div ><h1>
+<img src= "C:\GOG Games\Desktop\feda abdullah\RANK\DİJİTALsaat.html\kod00.JPG" class="myimg">
+</h1>
+</div>
+<div>
+
+  <p id="output"></p>
+  <button onclick="myF()">Adınız girmek için buraya basın</button>
+
+
+
+
+</div>
+      <!-- Digital Clock -->
+      <div id="time">
+          <div id="hours" style="--clr:#ff2972;">00</div>
+          <div id="minutes" style="--clr:#fee800;">00</div>
+          <div id="seconds" style="--clr:#04fc43;">00</div>
+          <div id="ampm">AM</div>
+      </div>
+
+
+
+  <script src="C:\GOG Games\Desktop\feda abdullah\RANK\DİJİTALsaat.html\master.jS"></script>
+
+
+         <div id="clock">8:10:45</div>
+
+
+
+      </div>
+
+      <div id="myClock" class="clock" onload="showTime()"></div>
+      <div class="text2 text-center">
+        tarihinde
+        <strong>Kodluyoruz Frontend Web Development Patikası</strong>'nın
+        Javascript bölümü 1. Ödevindesiniz.
+      </div>
+
+    <script src="C:\GOG Games\Desktop\feda abdullah\RANK\DİJİTALsaat.html\master.jS" charset="utf-8"></script>
+
+  </body>
+</html>
